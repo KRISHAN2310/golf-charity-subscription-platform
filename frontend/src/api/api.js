@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-  baseURL: "https://golf-charity-subscription-platform-h98e.onrender.com",
+ baseURL: "https://golf-charity-subscription-platform-h98e.onrender.com/api",
 });
 
 API.interceptors.request.use((req) => {
